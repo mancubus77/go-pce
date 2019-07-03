@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 	"net"
-	"pce/pcep"
 	"strings"
 
 	"github.com/golang/glog"
+	"github.com/mancubus77/go-pce/pcep"
 )
 
 type PceServer struct{}

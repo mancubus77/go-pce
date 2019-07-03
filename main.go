@@ -2,12 +2,13 @@ package main
 
 import (
 	"flag"
-	"github.com/golang/glog"
-	"google.golang.org/grpc"
 	"net"
-	"pce/pcep"
 	"strconv"
 	"time"
+
+	"github.com/golang/glog"
+	"github.com/mancubus77/go-pce/pcep"
+	"google.golang.org/grpc"
 
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/testdata"
